@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    //Nama : Rafsan Zen Mustaofa-->
+<!--    //Nim : 10119083-->
+<!--    //kelas : IF-2-->
+<!--    //23/04/2022-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gila"
+    tools:context="com.example.tugas_1_akb_if2_10119083.ProfiileActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/kopi"
+        android:layout_marginTop="80dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="NIM : 10119083"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Nama : Rafsan Zen Mustaofa"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Kelas : IF-2"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Deskripsi : "
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Saya adalah pemuda berumur 22 tahun yang sedang menempuh jenjang S1 di UNIKOM, jurusan yang saya ammbil adalah teknik Informatika."
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        />
+
+
+
+</LinearLayout>
